@@ -1,0 +1,35 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: blueviolet;
+}
+
+h1, h5 {
+	margin-top: 2rem;
+}
+
+h1, h2, h5 {
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+.link {
+    color: blueviolet;
+}
+
+.main {
+	padding: 0 39px;
+}
+
+@media (min-width: 40em) {
+    /* Handle the widths */
+    .main {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
+}
+
+@media (min-width: 62em) {
+    .main {
+        width: 42rem;
+    }
+}
